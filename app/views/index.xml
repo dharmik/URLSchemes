@@ -1,0 +1,18 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView id="scrollView"  height="100%" width="100%" contentHeight= 'auto' contentWidth='auto' >
+			<View id='containView'>
+			<Button id="btn_maps" onClick="doClickMaps">Open Maps</Button>
+			<Button id="btn_sms" onClick="doClickSMS">Open SMS</Button>
+			<Button id="btn_dialer" onClick="doClickDialer">Open Dialer</Button>
+			<Button id="btn_youtube" onClick="doClickYouTube">Open YouTube</Button>
+			<Button id="btn_store" onClick="doClickStore">Open App Store / Market</Button>
+			<Button id="btn_skype" onClick="doClickSkype">Open Skype</Button>
+			<Button id="btn_gmail" onClick="doClickGmail">Open Gmail</Button>
+			<Button id="btn_safari" onClick="doClickSafari">Open Safari</Button>
+			<Button id="btn_music" onClick="doClickMusic">Open Music</Button>
+			<Button id="btn_Book" onClick="doClickBook">Open iBook</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

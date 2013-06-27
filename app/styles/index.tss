@@ -1,0 +1,19 @@
+".container": {
+	backgroundColor: "white",
+	width: '100%',
+	height: '100%'
+},
+"#containView": {
+	layout: 'vertical'
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+"Button": {
+	top: 20,
+	width: '90%',
+	height: '40dp',
+	color: 'black'
+}
